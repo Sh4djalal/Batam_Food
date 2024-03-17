@@ -1,0 +1,297 @@
+/* @font-face {
+    font-family: batam;
+    src: url(../Font/YaroRg-Black.ttf);
+} */
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width:100vw;
+    height: 100vh;
+}
+
+HTML {
+    font-size: 62.5%;
+}
+
+
+@media screen and (max-width:600px){
+
+    html {
+        font-size: 40%;
+    }
+
+}
+
+
+body {
+    background-color: #333533;
+    font-family: batam;
+}
+
+
+/* Header */
+header{
+    height: 4vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    overflow: hidden;
+    align-items: center;
+    background-color: #FFEE32;
+}
+
+
+
+
+#location i{
+    font-size: 1.5rem;
+    margin-right: 0.5rem;
+}
+
+
+#PN i{
+    font-size: 1.5rem;
+    margin-right: 0.5rem;
+}
+
+.Header-span {
+    color: rgb(186, 12, 12);
+    font-size: 1.5rem;
+    font-family: "Lora", serif;
+    letter-spacing: 0.13rem;
+}
+
+
+
+
+.Header-P a{
+    color: black;
+    font-size: 2rem;
+}
+
+.Header-P a:hover{
+    color: purple;
+    font-size: 2rem;
+}
+
+.Header-P a:active{
+    color: red;
+    font-size: 2rem;
+}
+
+
+
+
+
+
+
+
+/* .Header-BTN{
+    width: 15rem;
+} */
+
+
+
+/* .icon i {
+    font-size: 2.3rem;
+    margin: 0.9rem;
+    color: #282626;
+    
+} */
+
+
+
+
+
+
+
+
+
+
+
+/* Header */
+
+
+/* Navbar */
+
+ul {
+    list-style-type: none;
+}
+
+.ul-navbar a {
+    text-decoration: none;
+    color: black;
+}
+
+.ul-navbar{
+    display: flex;
+    justify-content: center;
+    margin: 1rem;
+}
+
+.ul-navbar li {
+    font-size: 1.5rem;
+    margin: 1.5rem;
+    font-family: 'Galindo', monospace;
+}
+
+.ul-navbar li a {
+    display: block;
+    color: white;
+    padding: 1.5rem;
+    font-size: 1.8rem;
+    transition: 0.2s transform linear;
+    width: 8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+.ul-navbar li a:hover {
+    border-radius: 7rem;
+    background-color: #202020;
+    color: #FFd100;
+    transform: scale(1.1);
+}
+/* Navbar */
+
+
+/* Main */
+.log {
+    width: 10vw;
+    position: absolute;
+    top: 5rem;
+    left: 10rem;
+}
+
+
+
+
+
+
+
+#food {
+    height: 40rem;
+    width: 38rem;
+    border-radius: 20%;
+    /* position: relative;
+    top: 20rem;
+    left: 95rem; */
+    box-shadow: 10px 5px 10px black;
+}
+
+
+
+main {
+    height: 80vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+
+
+.Sleft {
+    font-family: "Galindo", sans-serif;
+    /* position: absolute;
+    top: 40vh;
+    left: 10vw; */
+}
+
+.h1B {
+    font-size: 9rem;
+    color: #FFD100;
+}
+
+.h1BL {
+    color: white;
+    margin-left: 2vw;
+    font-size: 3rem;
+}
+
+
+.BTN {
+    background-color: #FFD100;
+    color: #202020;
+    margin-left: 4vw;
+    margin-top: 5vh;
+    border: none;
+    width: 17rem;
+    height: 5rem;
+    font-weight: bold;
+    font-size: 2rem;
+    border-radius: 3rem;
+    box-shadow: 5px 5px 5px black;
+    transition: 0.3s transform ease;
+    cursor: pointer;
+    font-family: "Lora", serif;
+}
+
+
+@media screen and (max-width:470px){
+    .log {
+        width: 13vw;
+        position: absolute;
+        top: 8rem;
+        left: 5rem;
+    }
+    main {
+        height: 50vh;
+        width: 100vw;
+        display: grid;
+    }
+    #food {
+        height: 40rem;
+        width: 38rem;
+        /* border-radius: 20%; */
+        /* position: relative;
+        top: 20rem;
+        left: 95rem; */
+        box-shadow: 10px 5px 10px black;
+    }
+    .BTN {
+        background-color: #FFD100;
+        color: #202020;
+        margin-left: 15vw;
+        margin-top: 3vh;
+        border: none;
+        width: 17rem;
+        height: 5rem;
+        font-weight: bold;
+        font-size: 2rem;
+        border-radius: 3rem;
+        box-shadow: 5px 5px 5px black;
+        transition: 0.3s transform ease;
+        cursor: pointer;
+        font-family: "Lora", serif;
+    }
+    .h1B {
+        font-size: 9rem;
+        color: #FFD100;
+        margin-left: 4vw;
+    }
+    
+    .h1BL {
+        color: white;
+        margin-left: 8vw;
+        font-size: 3rem;
+    }
+
+}
+
+.BTN:active {
+    transform: translateY(3px);
+}
+
+/* Main */
+
